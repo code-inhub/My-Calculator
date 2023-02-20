@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap");
+
+* {
+  background-color: rgb(244, 214, 255);
+  font-family: "ubuntu", "roboto";
+}
+.align {
+  text-align: center;
+}
+.input1 {
+  font-size: 20px;
+  font-family: "ubuntu", "roboto";
+}
+
+.row input {
+  width: 333px;
+  height: 33px;
+  border: 2px solid rgb(255, 118, 250);
+  border-radius: 10px;
+  margin: 2rem;
+}
+.button {
+  font-size: 1.5rem;
+  border: 2px solid rgb(249, 104, 128);
+  border-radius: 40px;
+  width: 4rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(228, 228, 228);
+  height: 4rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.blue {
+  border-color: rgb(60, 232, 255);
+  background-color: rgb(127, 229, 255);
+  border-radius: 40px;
+  width: 4rem;
+  color: rgb(0, 0, 0);
+}
+.purple {
+  border-color: rgb(196, 114, 255);
+  background-color: rgb(252, 160, 255);
+  border-radius: 40px;
+  width: 4rem;
+  color: rgb(0, 0, 0);
+}
+button:hover {
+  /* display: none; */
+  font-size: 30px;
+  padding: 0px;
+  /* background-color: red; */
+  /* color: red; */
+}
